@@ -14,7 +14,7 @@ I made a few .bdf files for use with bspatch (https://github.com/mendsley/bsdiff
     - If you're using Windows or have built bspatch from source without installing it, copy that thXX.exe.steam into the bspatch folder.
 5. Open the command line in the folder that your .bdf and thXX.exe.steam file are. 
     - On Windows, hold shift, right click any whitespace in that folder and click "Open Powershell here". Make sure this folder also has the bspatch executable.
-6. Tell bspatch to patch thXX.exe.steam and save it as thXX.exe, using thxx.bdf.
+6. Tell bspatch to patch thXX.exe.steam and save it as thXX.exe, using thXX.bdf.
     - `"[\path\to\bspatch.exe"] ["\path\to\thXX.steam.exe"] ["\path\to\game\thXX.exe"] ["\path\to\thXX.bdf"]`
     - example (assuming bspatch.exe, thXX.exe.steam and thXX.bdf are all in the same folder): 
         - `bspatch.exe th12.exe.steam th12.exe th12.bdf`
@@ -27,7 +27,8 @@ I made a few .bdf files for use with bspatch (https://github.com/mendsley/bsdiff
 7. Move the newly created thXX.exe to its game folder if it's not already there.
 8. Play! If you want to know how to run the thcrap translation patch and vsync patch from within Steam, check out my guide [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2196860604).
 
-
-
+*
+*
+*
 
 The purpose of this repository is to make it easier for people to play these games they bought on Steam with the least amount of input delay as possible. I want to help current and potential Steam buyers use vpatch and other steam-incompatible mods without being tempted to resort to piracy. In light of recent events, I aim to provide this service using the least amount of official material as possible, hence why I'm using .bdf diff files and not just uploading the .exe's outright.
