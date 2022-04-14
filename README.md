@@ -15,8 +15,8 @@ I made a few .bdf files for use with bspatch (https://github.com/mendsley/bsdiff
 5. Open the command line in the folder that your .bdf and thXX.exe.steam file are. 
     - On Windows, hold shift, right click any whitespace in that folder and click "Open Powershell here". Make sure this folder also has the bspatch executable.
 6. Tell bspatch to patch thXX.exe.steam and save it as thXX.exe, using thxx.bdf.
-    - ` bspatch ["\path\to\thXX.steam.exe"] ["\path\to\game\thXX.exe"] ["\path\to\thXX.bdf"]`
-    - example (assuming thXX.exe.steam and thXX.bdf are in the same folder): 
+    - `"[\path\to\bspatch.exe"] ["\path\to\thXX.steam.exe"] ["\path\to\game\thXX.exe"] ["\path\to\thXX.bdf"]`
+    - example (assuming bspatch.exe, thXX.exe.steam and thXX.bdf are all in the same folder): 
         - `bspatch.exe th12.exe.steam th12.exe th12.bdf`
     - example 2 (we're in the bspatch folder, and the thXX.exe.steam and thXX.bdf files are in the game's folder): 
         - `bspatch.exe "C:\Program Files (x86)\Steam\steamapps\common\th12\th12.exe.steam" "C:\Program Files (x86)\Steam\steamapps\common\th12\th12.exe" "C:\Program Files (x86)\Steam\steamapps\common\th12\th12.bdf"`
