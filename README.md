@@ -25,7 +25,8 @@ I made a few .bdf files for use with bspatch (https://github.com/mendsley/bsdiff
     - example 4 (Linux):
         - `bspatch "/home/you/.local/share/Steam/steamapps/common/th12/th12.exe.steam" "/home/you/.local/share/Steam/steamapps/common/th12/th12.exe" "/home/you/.local/share/Steam/steamapps/common/th12/th12.bdf"`
 7. Move the newly created thXX.exe to its game folder if it's not already there.
-8. Play! If you want to know how to run the thcrap translation patch and vsync patch from within Steam, check out my guide [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2196860604).
+8. Play! If you want to know how to run the thcrap translation patch and vsync patch from within Steam, check out my guide [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2196860604). 
+By the way, beware that if you ever hit 'verify integrity of game files', your converted .exe will be lost. You could make a backup of it beforehend and call it thXX.disc.exe, as a precaution.
 
 *
 *
