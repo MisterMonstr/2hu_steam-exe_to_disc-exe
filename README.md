@@ -23,7 +23,7 @@ I made a few .bdf files for use with bspatch (https://github.com/mendsley/bsdiff
     - example 3 (bspatch.exe is in another folder): 
         - `"C:\Users\You\Downloads\bspatch\bspatch.exe" "C:\Program Files (x86)\Steam\steamapps\common\th12\th12.exe.steam" "C:\Program Files (x86)\Steam\steamapps\common\th12\th12.exe" "C:\Program Files (x86)\Steam\steamapps\common\th12\th12.bdf"`
     - example 4 (Linux):
-        - `bspatch "/home/you/.local/share/Steam/steamapps/common/th12/th12.exe.steam" "/home/you/.local/share/Steam/steamapps/common/th12/th12.exe" "/home/you/.local/share/Steam/steamapps/common/th12/th12.bdf"`
+        - `bspatch "$HOME/.local/share/Steam/steamapps/common/th12/th12.exe.steam" "/home/you/.local/share/Steam/steamapps/common/th12/th12.exe" "/home/you/.local/share/Steam/steamapps/common/th12/th12.bdf"`
 7. Move the newly created thXX.exe to its game folder if it's not already there.
 8. Play! If you want to know how to run the thcrap translation patch and vsync patch from within Steam, check out my guide [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2196860604). 
 
